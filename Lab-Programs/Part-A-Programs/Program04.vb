@@ -1,20 +1,11 @@
 ﻿Public Class Program04
-    Dim c As Integer = 0
-
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
-        Select Case c
-            Case 0
-                Button1.BackColor = Color.Red
-            Case 1
-                Button1.BackColor = Color.Green
-            Case 2
-                Button1.BackColor = Color.Aqua
-                c = -1
-        End Select
-        c += 1
-    End Sub
+        Dim c As Color
+        If ColorDialog1.ShowDialog Then
+            c = ColorDialog1.Color
+        End If
 
-    Private Sub Button1_MouseLeave(sender As System.Object, e As System.EventArgs) Handles Button1.MouseLeave
-        Button1.BackColor = DefaultBackColor
+        Me.BackColor = c
+        Button1.BackColor = c
     End Sub
 End Class

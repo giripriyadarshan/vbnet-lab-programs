@@ -5,10 +5,8 @@
         Dim input As String = InputBox("Enter an Integer", "Multiplication Input").Trim
 
         If Not input = String.Empty And IsNumeric(input) Then
-            Dim outputText As String
             For index As Integer = 1 To 10
-                outputText = input & " x " & index & " = " & Val(input * index)
-                ListBox1.Items.Add(outputText)
+                ListBox1.Items.Add(input & " x " & index & " = " & Val(input * index))
             Next
         Else
             MessageBox.Show("Please enter an integer", "ERROR!!")

@@ -112,6 +112,18 @@
     <Compile Include="Part-A-Programs\Program04.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Part-A-Programs\Program05.Designer.vb">
+      <DependentUpon>Program05.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Part-A-Programs\Program05.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Part-A-Programs\Program07.Designer.vb">
+      <DependentUpon>Program07.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Part-A-Programs\Program07.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Part-B-Programs\Program11.vb" />
     <Compile Include="Part-B-Programs\Program12.Designer.vb">
       <DependentUpon>Program12.vb</DependentUpon>
@@ -145,6 +157,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Part-A-Programs\Program04.resx">
       <DependentUpon>Program04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Part-A-Programs\Program05.resx">
+      <DependentUpon>Program05.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Part-A-Programs\Program07.resx">
+      <DependentUpon>Program07.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Part-B-Programs\Program12.resx">
       <DependentUpon>Program12.vb</DependentUpon>
