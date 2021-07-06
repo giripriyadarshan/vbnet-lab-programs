@@ -83,6 +83,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -162,6 +163,24 @@
     <Compile Include="Part-B-Programs\Program14.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Part-B-Programs\Program16.Designer.vb">
+      <DependentUpon>Program16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Part-B-Programs\Program16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Part-B-Programs\Program17.Designer.vb">
+      <DependentUpon>Program17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Part-B-Programs\Program17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Part-B-Programs\Program18.Designer.vb">
+      <DependentUpon>Program18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Part-B-Programs\Program18.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Part-A-Programs\Program01.resx">
@@ -205,6 +224,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Part-B-Programs\Program14.resx">
       <DependentUpon>Program14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Part-B-Programs\Program16.resx">
+      <DependentUpon>Program16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Part-B-Programs\Program17.resx">
+      <DependentUpon>Program17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Part-B-Programs\Program18.resx">
+      <DependentUpon>Program18.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
