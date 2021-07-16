@@ -22,42 +22,32 @@ Partial Class Program03
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
         Me.SuspendLayout()
-        '
-        'ListBox1
-        '
-        Me.ListBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 20
-        Me.ListBox1.Location = New System.Drawing.Point(24, 23)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(236, 284)
-        Me.ListBox1.TabIndex = 0
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(24, 349)
+        Me.Button1.BackColor = System.Drawing.SystemColors.Control
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(54, 191)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(233, 49)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Generate Table"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Size = New System.Drawing.Size(182, 58)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Change"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Program03
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(291, 425)
+        Me.ClientSize = New System.Drawing.Size(284, 261)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ListBox1)
         Me.Name = "Program03"
         Me.Text = "Program03"
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents ColorDialog1 As System.Windows.Forms.ColorDialog
 End Class

@@ -5,7 +5,7 @@
             Label3.Text = ProgressBar1.Value & "%"
         Else
             Me.Hide()
-            Program12.Show()
+            Program13.Show()
             Close()
         End If
     End Sub
