@@ -3,7 +3,7 @@ Public Class Program10
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim connection As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\dotnet-practice\vbnet-lab-programs\labprogramsDB.accdb")
         Dim command As New OleDbCommand With {
-            .Connection = connection,
+            .connection = connection,
             .CommandText = "INSERT INTO PatientDetails ([PID], [PName], [ContactNo], [Disease]) " &
             "VALUES (@PID, @PName, @ContactNo, @Disease)"
         }
