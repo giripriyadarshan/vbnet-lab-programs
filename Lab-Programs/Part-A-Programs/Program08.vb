@@ -1,8 +1,32 @@
 ﻿Public Class Program08
 
-    Private Sub DateTimePicker1_ValueChanged(sender As System.Object, e As System.EventArgs) Handles DateTimePicker1.ValueChanged
-        TextBox1.Text = DateTimePicker1.Value.Day
-        TextBox2.Text = DateTimePicker1.Value.Month
-        TextBox3.Text = DateTimePicker1.Value.Year
+    Private Sub close_all_others()
+        For Each form As Form In Me.MdiChildren
+            form.Close()
+        Next
+    End Sub
+
+    Private Sub Program01ToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles Program01ToolStripMenuItem.Click
+        Program01.MdiParent = Me
+        close_all_others()
+        Program01.Show()
+    End Sub
+
+    Private Sub Program02ToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles Program02ToolStripMenuItem.Click
+        Program02.MdiParent = Me
+        close_all_others()
+        Program02.Show()
+    End Sub
+
+    Private Sub Program03ToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles Program03ToolStripMenuItem.Click
+        Program14.MdiParent = Me
+        close_all_others()
+        Program14.Show()
+    End Sub
+
+    Private Sub Program04ToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles Program04ToolStripMenuItem.Click
+        Program03.MdiParent = Me
+        close_all_others()
+        Program03.Show()
     End Sub
 End Class
