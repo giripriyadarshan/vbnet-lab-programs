@@ -187,6 +187,12 @@
     <Compile Include="Part-B-Programs\Program18.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Part-B-Programs\Program19.Designer.vb">
+      <DependentUpon>Program19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Part-B-Programs\Program19.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Part-A-Programs\Program01.resx">
@@ -242,6 +248,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Part-B-Programs\Program18.resx">
       <DependentUpon>Program18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Part-B-Programs\Program19.resx">
+      <DependentUpon>Program19.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
